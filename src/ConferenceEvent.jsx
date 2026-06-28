@@ -4,7 +4,7 @@ import TotalCost from "./TotalCost";
 import { useSelector, useDispatch } from "react-redux";
 import { incrementQuantity, decrementQuantity } from "./venueSlice";
 import { toggleMealSelection } from "./mealsSlice";
-import { incrementQuantity, decrementQuantity } from "./avSlice";
+import { incrementAvQuantity, decrementAvQuantity } from "./avSlice";
 
 const ConferenceEvent = () => {
     const [showItems, setShowItems] = useState(false);
